@@ -1,0 +1,13 @@
+# services:
+#   - type: web
+#     name: mern-backend
+#     env: node
+#     region: oregon
+#     plan: free
+#     buildCommand: "npm install"
+#     startCommand: "npm run start"
+#     envVars:
+#       - key: DATABASE_URL
+#         value: your_mongo_db_url
+#       - key: OTHER_ENV_VARS
+#         value: your_value
